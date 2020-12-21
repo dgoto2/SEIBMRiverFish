@@ -34,7 +34,7 @@ IF iYEAR EQ 1999L THEN file = FILEPATH('lowerPlatteRiverInput99.csv', Root_dir =
 ; YEAR 2000
 IF iYEAR EQ 2000L THEN file = FILEPATH('lowerPlatteRiverInput00.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
 ; YEAR 2001
-IF iYEAR EQ 2001L THEN file = FILEPATH('lowerPlatteRiverInput01.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+IF iYEAR EQ 2001L THEN file = FILEPATH('lowerPlatteRiverInput01.csv', Root_dir = 'C:', SUBDIR = 'river_main\lowerPlatteRiver_input')
 ; YEAR 2002
 IF iYEAR EQ 2002L THEN file = FILEPATH('lowerPlatteRiverInput02.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
 ; YEAR 2003
