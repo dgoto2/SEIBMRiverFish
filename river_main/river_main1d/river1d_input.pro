@@ -75,9 +75,9 @@ IF iYEAR GE 2012L THEN BEGIN
   ; YEAR 2002
   IF RandInputYear2 EQ 2002L THEN file = FILEPATH('lowerPlatteRiverInput02.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2003
-  IF RandInputYear2 EQ 2003L THEN file = FILEPATH('lowerPlatteRiverInput03.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+  IF RandInputYear2 EQ 2003L THEN file = FILEPATH('lowerPlatteRiverInput03.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2004
-  IF RandInputYear2 EQ 2004L THEN file = FILEPATH('lowerPlatteRiverInput04.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+  IF RandInputYear2 EQ 2004L THEN file = FILEPATH('lowerPlatteRiverInput04.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2005
   IF RandInputYear2 EQ 2005L THEN file = FILEPATH('lowerPlatteRiverInput05.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2006
@@ -180,7 +180,6 @@ FishEnvir[5, *] = OXYGEN;
 FishEnvir[6, *] = TURB; 
 FishEnvir[7, *] = DAYLIGHT; 
 ;PRINT, fishenvir[*, *];
-
 
 
 PRINT, 'End of Input: YEAR', iYEAR;, '     DAY', DOY
