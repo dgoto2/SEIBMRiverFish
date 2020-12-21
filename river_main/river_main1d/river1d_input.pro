@@ -71,7 +71,7 @@ IF iYEAR GE 2012L THEN BEGIN
   ; YEAR 2000
   IF RandInputYear2 EQ 2000L THEN file = FILEPATH('lowerPlatteRiverInput00.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2001
-  IF RandInputYear2 EQ 2001L THEN file = FILEPATH('lowerPlatteRiverInput01.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+  IF RandInputYear2 EQ 2001L THEN file = FILEPATH('lowerPlatteRiverInput01.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2002
   IF RandInputYear2 EQ 2002L THEN file = FILEPATH('lowerPlatteRiverInput02.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2003
@@ -81,7 +81,7 @@ IF iYEAR GE 2012L THEN BEGIN
   ; YEAR 2005
   IF RandInputYear2 EQ 2005L THEN file = FILEPATH('lowerPlatteRiverInput05.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2006
-  IF RandInputYear2 EQ 2006L THEN file = FILEPATH('lowerPlatteRiverInput06.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+  IF RandInputYear2 EQ 2006L THEN file = FILEPATH('lowerPlatteRiverInput06.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2007
   IF RandInputYear2 EQ 2007L THEN file = FILEPATH('lowerPlatteRiverInput07.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2008
