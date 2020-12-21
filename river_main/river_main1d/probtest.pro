@@ -38,7 +38,5 @@ HydroNormFreq = 1. - HydroWetFreq - HydroDryFreq
   IF HydroWet GT 0 THEN HydroCond = HydroWet*2
   IF HydroDry GT 0 THEN HydroCond = HydroDry*3
   PRINT, HydroCond
-
   
-  
-  end
+  END
