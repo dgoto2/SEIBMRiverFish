@@ -34,13 +34,13 @@ IF iYEAR EQ 1999L THEN file = FILEPATH('lowerPlatteRiverInput99.csv', Root_dir =
 ; YEAR 2000
 IF iYEAR EQ 2000L THEN file = FILEPATH('lowerPlatteRiverInput00.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
 ; YEAR 2001
-IF iYEAR EQ 2001L THEN file = FILEPATH('lowerPlatteRiverInput01.csv', Root_dir = 'C:', SUBDIR = 'river_main\lowerPlatteRiver_input')
+IF iYEAR EQ 2001L THEN file = FILEPATH('lowerPlatteRiverInput01.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
 ; YEAR 2002
-IF iYEAR EQ 2002L THEN file = FILEPATH('lowerPlatteRiverInput02.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+IF iYEAR EQ 2002L THEN file = FILEPATH('lowerPlatteRiverInput02.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
 ; YEAR 2003
-IF iYEAR EQ 2003L THEN file = FILEPATH('lowerPlatteRiverInput03.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+IF iYEAR EQ 2003L THEN file = FILEPATH('lowerPlatteRiverInput03.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
 ; YEAR 2004
-IF iYEAR EQ 2004L THEN file = FILEPATH('lowerPlatteRiverInput04.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+IF iYEAR EQ 2004L THEN file = FILEPATH('lowerPlatteRiverInput04.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
 ; YEAR 2005
 IF iYEAR EQ 2005L THEN file = FILEPATH('lowerPlatteRiverInput05.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
 ; YEAR 2006
