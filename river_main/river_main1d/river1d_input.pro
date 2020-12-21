@@ -85,13 +85,13 @@ IF iYEAR GE 2012L THEN BEGIN
   ; YEAR 2007
   IF RandInputYear2 EQ 2007L THEN file = FILEPATH('lowerPlatteRiverInput07.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2008
-  IF RandInputYear2 EQ 2008L THEN file = FILEPATH('lowerPlatteRiverInput08.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+  IF RandInputYear2 EQ 2008L THEN file = FILEPATH('lowerPlatteRiverInput08.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2009
-  IF RandInputYear2 EQ 2009L THEN file = FILEPATH('lowerPlatteRiverInput09.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+  IF RandInputYear2 EQ 2009L THEN file = FILEPATH('lowerPlatteRiverInput09.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2010
-  IF RandInputYear2 EQ 2010L THEN file = FILEPATH('lowerPlatteRiverInput10.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+  IF RandInputYear2 EQ 2010L THEN file = FILEPATH('lowerPlatteRiverInput10.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
   ; YEAR 2011
-  IF RandInputYear2 EQ 2011L THEN file = FILEPATH('lowerPlatteRiverInput11.csv', Root_dir = 'C:', SUBDIR = 'Users\daisu\IDLWorkspace\river_main\lowerPlatteRiver_input')
+  IF RandInputYear2 EQ 2011L THEN file = FILEPATH('lowerPlatteRiverInput11.csv', Root_dir = 'C:', SUBDIR = 'IDLWorkspace\river_main\lowerPlatteRiver_input')
 ENDIF
 IF (N_ELEMENTS(file) EQ 0L) THEN MESSAGE, 'FILE is undefined'
 ;IF (N_ELEMENTS(maxcols) EQ 0L) THEN maxcols = 8L
