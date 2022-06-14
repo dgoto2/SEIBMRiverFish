@@ -13,7 +13,7 @@ The sturgeon model keeps track of state variables of the entire life cycle. Earl
 
 The model simulates the sturgeon population and updates state variables at discrete daily time steps over years and generations. The river habitat conditions are first updated, and the model then evaluates actions by sturgeon in the following order: (1) spawning, (2) hatching and larval development, (3) movement, (4) foraging, (5) growth and (6) mortality. The model updates state variables at the end of each action. At the beginning of each year, maturity is evaluated and, if mature sturgeon are healthy, they enter the reproductive cycle. Spawning normally occurs from late spring to early summer in the study system.
 
-<img src=https://github.com/dgoto2/SEIBMRiverFish/blob/main/ibm_sns/output1.png?raw=true" width="500">
+<img src="https://github.com/dgoto2/SEIBMRiverFish/blob/main/ibm_sns/output1.png?raw=true" width="500">
 
 ## References
 Goto, D., M. J. Hamel, J. J. Hammen, M. L. Rugg, M.A. Pegg, and V.E. Forbes. 2015. [Spatiotemporal variation in flow-dependent recruitment of long-lived riverine fish: Model development and evaluation](https://www.sciencedirect.com/science/article/abs/pii/S0304380014004992). Ecological Modelling. 296: 79–92. doi:10.1016/j.ecolmodel.2014.10.026
