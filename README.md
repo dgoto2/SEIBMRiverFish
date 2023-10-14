@@ -2,7 +2,7 @@
 A spatially explicit (1D) individual-based model for shovelnose sturgeon populations in a tributary of the Missouri River system
 
 ## Description 
-SEIBMRiverFish is a spatially explicit, individual-based model designed to simulate population dynamics of shovelnose sturgeon via individual-based processes including movement, foraging, growth, metabolism, maturation, reproduction, and mortality in a large river system.
+SEIBMRiverFish is a spatially explicit, individual-based model designed to simulate population dynamics of shovelnose sturgeon via individual-based processes including movement, foraging, growth, metabolism, maturation, reproduction, and mortality in a large river system, as described in more detail as well as its applications for evaluating spatially and temporally dynamic effects of environmental changes such as climate-induced changes in hydrology and synthetic chemical pollutants in [Goto et al. 2015](https://www.sciencedirect.com/science/article/abs/pii/S0304380014004992), [Goto et al. 2018](https://www.publish.csiro.au/MF/MF17082), and [Goto et al. 2020](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.6153).
 
 The sturgeon biophysical model simulates sturgeon population dynamics with two types of entities: river and sturgeon. The model river consists of 162 equally divided longitudinal rectangular segments (i.e. 1 river kilometre (rkm) each, where rkm is a measure of distance along a river) with six state variables: daily, depth-averaged discharge (m3);meandepth (gauge height; m); channel width (m); benthic invertebrate prey density (g m2); water temperature (degree-C); and photoperiod (h). Discharge, depth, width and prey density are spatially explicit, whereas temperature and photoperiod are spatially uniform. 
 
